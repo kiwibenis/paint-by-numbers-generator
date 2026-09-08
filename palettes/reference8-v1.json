@@ -1,0 +1,82 @@
+{
+    "metadata": {
+        "id": "reference8",
+        "manufacturer": "Paint-by-Numbers Generator",
+        "display_name": "Reference 8",
+        "version": 1
+    },
+    "colors": [
+        {
+            "number": 1,
+            "name": "White",
+            "rgb": {
+                "red": 255,
+                "green": 255,
+                "blue": 255
+            }
+        },
+        {
+            "number": 2,
+            "name": "Black",
+            "rgb": {
+                "red": 0,
+                "green": 0,
+                "blue": 0
+            }
+        },
+        {
+            "number": 3,
+            "name": "Red",
+            "rgb": {
+                "red": 255,
+                "green": 0,
+                "blue": 0
+            }
+        },
+        {
+            "number": 4,
+            "name": "Green",
+            "rgb": {
+                "red": 0,
+                "green": 255,
+                "blue": 0
+            }
+        },
+        {
+            "number": 5,
+            "name": "Blue",
+            "rgb": {
+                "red": 0,
+                "green": 0,
+                "blue": 255
+            }
+        },
+        {
+            "number": 6,
+            "name": "Yellow",
+            "rgb": {
+                "red": 255,
+                "green": 255,
+                "blue": 0
+            }
+        },
+        {
+            "number": 7,
+            "name": "Cyan",
+            "rgb": {
+                "red": 0,
+                "green": 255,
+                "blue": 255
+            }
+        },
+        {
+            "number": 8,
+            "name": "Magenta",
+            "rgb": {
+                "red": 255,
+                "green": 0,
+                "blue": 255
+            }
+        }
+    ]
+}

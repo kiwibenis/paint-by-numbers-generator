@@ -1,0 +1,21 @@
+# Binary fixtures must never be transformed on checkout. Git's heuristic
+# already gets this right for the formats here, verified by comparing the
+# checksum of the RAW fixture across a Linux and a Windows checkout with
+# core.autocrlf enabled. This states it rather than relying on it, because
+# a fixture whose bytes change is a test that fails for a reason nobody
+# thinks to look for.
+#
+# Deliberately limited to binary formats. Marking the text files with a
+# fixed newline would rewrite every source file in an existing working
+# tree on Windows, and nothing in this project compares source bytes.
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.bmp binary
+*.tif binary
+*.tiff binary
+*.webp binary
+*.dng binary
+*.DNG binary
+*.pdf binary

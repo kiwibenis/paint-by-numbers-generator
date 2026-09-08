@@ -1,0 +1,550 @@
+{
+    "metadata": {
+        "id": "faberCastellPolychromos60",
+        "manufacturer": "Faber-Castell",
+        "display_name": "Polychromos 60",
+        "version": 1
+    },
+    "colors": [
+        {
+            "number": 101,
+            "name": "White",
+            "rgb": {
+                "red": 245,
+                "green": 247,
+                "blue": 251
+            }
+        },
+        {
+            "number": 102,
+            "name": "Cream",
+            "rgb": {
+                "red": 242,
+                "green": 243,
+                "blue": 185
+            }
+        },
+        {
+            "number": 104,
+            "name": "Light Yellow Glaze",
+            "rgb": {
+                "red": 254,
+                "green": 255,
+                "blue": 91
+            }
+        },
+        {
+            "number": 105,
+            "name": "Light Cadmium Yellow",
+            "rgb": {
+                "red": 254,
+                "green": 253,
+                "blue": 92
+            }
+        },
+        {
+            "number": 107,
+            "name": "Cadmium Yellow",
+            "rgb": {
+                "red": 254,
+                "green": 246,
+                "blue": 56
+            }
+        },
+        {
+            "number": 108,
+            "name": "Dark Cadmium Yellow",
+            "rgb": {
+                "red": 242,
+                "green": 184,
+                "blue": 33
+            }
+        },
+        {
+            "number": 109,
+            "name": "Dark Chrome Yellow",
+            "rgb": {
+                "red": 233,
+                "green": 160,
+                "blue": 65
+            }
+        },
+        {
+            "number": 110,
+            "name": "Phthalo Blue",
+            "rgb": {
+                "red": 18,
+                "green": 141,
+                "blue": 228
+            }
+        },
+        {
+            "number": 111,
+            "name": "Cadmium Orange",
+            "rgb": {
+                "red": 231,
+                "green": 136,
+                "blue": 76
+            }
+        },
+        {
+            "number": 112,
+            "name": "Leaf Green",
+            "rgb": {
+                "red": 23,
+                "green": 199,
+                "blue": 67
+            }
+        },
+        {
+            "number": 115,
+            "name": "Dark Cadmium Orange",
+            "rgb": {
+                "red": 234,
+                "green": 88,
+                "blue": 74
+            }
+        },
+        {
+            "number": 120,
+            "name": "Ultramarine",
+            "rgb": {
+                "red": 93,
+                "green": 129,
+                "blue": 238
+            }
+        },
+        {
+            "number": 121,
+            "name": "Pale Geranium Lake",
+            "rgb": {
+                "red": 228,
+                "green": 51,
+                "blue": 90
+            }
+        },
+        {
+            "number": 124,
+            "name": "Rose Carmine",
+            "rgb": {
+                "red": 226,
+                "green": 92,
+                "blue": 138
+            }
+        },
+        {
+            "number": 125,
+            "name": "Middle Purple Pink",
+            "rgb": {
+                "red": 209,
+                "green": 61,
+                "blue": 166
+            }
+        },
+        {
+            "number": 126,
+            "name": "Permanent Carmine",
+            "rgb": {
+                "red": 212,
+                "green": 39,
+                "blue": 88
+            }
+        },
+        {
+            "number": 129,
+            "name": "Pink Madder Lake",
+            "rgb": {
+                "red": 227,
+                "green": 126,
+                "blue": 194
+            }
+        },
+        {
+            "number": 131,
+            "name": "Coral",
+            "rgb": {
+                "red": 221,
+                "green": 123,
+                "blue": 137
+            }
+        },
+        {
+            "number": 133,
+            "name": "Magenta",
+            "rgb": {
+                "red": 170,
+                "green": 64,
+                "blue": 105
+            }
+        },
+        {
+            "number": 136,
+            "name": "Purple Violet",
+            "rgb": {
+                "red": 127,
+                "green": 76,
+                "blue": 198
+            }
+        },
+        {
+            "number": 140,
+            "name": "Light Ultramarine",
+            "rgb": {
+                "red": 134,
+                "green": 173,
+                "blue": 248
+            }
+        },
+        {
+            "number": 141,
+            "name": "Delft Blue",
+            "rgb": {
+                "red": 72,
+                "green": 53,
+                "blue": 170
+            }
+        },
+        {
+            "number": 142,
+            "name": "Madder",
+            "rgb": {
+                "red": 206,
+                "green": 79,
+                "blue": 119
+            }
+        },
+        {
+            "number": 149,
+            "name": "Bluish Turquoise",
+            "rgb": {
+                "red": 7,
+                "green": 125,
+                "blue": 192
+            }
+        },
+        {
+            "number": 151,
+            "name": "Helioblue-Reddish",
+            "rgb": {
+                "red": 37,
+                "green": 121,
+                "blue": 212
+            }
+        },
+        {
+            "number": 153,
+            "name": "Cobalt Turquoise",
+            "rgb": {
+                "red": 7,
+                "green": 142,
+                "blue": 176
+            }
+        },
+        {
+            "number": 156,
+            "name": "Cobalt Green",
+            "rgb": {
+                "red": 35,
+                "green": 189,
+                "blue": 201
+            }
+        },
+        {
+            "number": 157,
+            "name": "Dark Indigo",
+            "rgb": {
+                "red": 60,
+                "green": 75,
+                "blue": 101
+            }
+        },
+        {
+            "number": 158,
+            "name": "Deep Cobalt Green",
+            "rgb": {
+                "red": 23,
+                "green": 127,
+                "blue": 113
+            }
+        },
+        {
+            "number": 163,
+            "name": "Emerald Green",
+            "rgb": {
+                "red": 12,
+                "green": 201,
+                "blue": 139
+            }
+        },
+        {
+            "number": 165,
+            "name": "Juniper Green",
+            "rgb": {
+                "red": 67,
+                "green": 134,
+                "blue": 95
+            }
+        },
+        {
+            "number": 168,
+            "name": "Earth Green Yellowish",
+            "rgb": {
+                "red": 166,
+                "green": 197,
+                "blue": 101
+            }
+        },
+        {
+            "number": 171,
+            "name": "Light Green",
+            "rgb": {
+                "red": 159,
+                "green": 229,
+                "blue": 106
+            }
+        },
+        {
+            "number": 173,
+            "name": "Olive Green Yellowish",
+            "rgb": {
+                "red": 113,
+                "green": 114,
+                "blue": 74
+            }
+        },
+        {
+            "number": 174,
+            "name": "Chromium Green Opaque",
+            "rgb": {
+                "red": 115,
+                "green": 132,
+                "blue": 84
+            }
+        },
+        {
+            "number": 176,
+            "name": "Van Dyck Brown",
+            "rgb": {
+                "red": 118,
+                "green": 94,
+                "blue": 91
+            }
+        },
+        {
+            "number": 177,
+            "name": "Walnut Brown",
+            "rgb": {
+                "red": 101,
+                "green": 80,
+                "blue": 81
+            }
+        },
+        {
+            "number": 180,
+            "name": "Raw Umber",
+            "rgb": {
+                "red": 161,
+                "green": 113,
+                "blue": 63
+            }
+        },
+        {
+            "number": 184,
+            "name": "Dark Naples Ochre",
+            "rgb": {
+                "red": 249,
+                "green": 224,
+                "blue": 101
+            }
+        },
+        {
+            "number": 185,
+            "name": "Naples Yellow",
+            "rgb": {
+                "red": 253,
+                "green": 238,
+                "blue": 94
+            }
+        },
+        {
+            "number": 187,
+            "name": "Burnt Ochre",
+            "rgb": {
+                "red": 198,
+                "green": 134,
+                "blue": 79
+            }
+        },
+        {
+            "number": 188,
+            "name": "Sanguine",
+            "rgb": {
+                "red": 197,
+                "green": 89,
+                "blue": 72
+            }
+        },
+        {
+            "number": 190,
+            "name": "Venetian Red",
+            "rgb": {
+                "red": 203,
+                "green": 99,
+                "blue": 97
+            }
+        },
+        {
+            "number": 191,
+            "name": "Pompeian Red",
+            "rgb": {
+                "red": 211,
+                "green": 94,
+                "blue": 112
+            }
+        },
+        {
+            "number": 194,
+            "name": "Red-Violet",
+            "rgb": {
+                "red": 144,
+                "green": 74,
+                "blue": 106
+            }
+        },
+        {
+            "number": 199,
+            "name": "Black",
+            "rgb": {
+                "red": 77,
+                "green": 76,
+                "blue": 81
+            }
+        },
+        {
+            "number": 205,
+            "name": "Cadmium Yellow Lemon",
+            "rgb": {
+                "red": 246,
+                "green": 254,
+                "blue": 76
+            }
+        },
+        {
+            "number": 217,
+            "name": "Middle Cadmium Red",
+            "rgb": {
+                "red": 193,
+                "green": 65,
+                "blue": 73
+            }
+        },
+        {
+            "number": 219,
+            "name": "Deep Scarlet Red",
+            "rgb": {
+                "red": 217,
+                "green": 44,
+                "blue": 86
+            }
+        },
+        {
+            "number": 225,
+            "name": "Dark Red",
+            "rgb": {
+                "red": 176,
+                "green": 61,
+                "blue": 76
+            }
+        },
+        {
+            "number": 231,
+            "name": "Cold Grey II",
+            "rgb": {
+                "red": 200,
+                "green": 207,
+                "blue": 216
+            }
+        },
+        {
+            "number": 233,
+            "name": "Cold Grey IV",
+            "rgb": {
+                "red": 142,
+                "green": 148,
+                "blue": 152
+            }
+        },
+        {
+            "number": 246,
+            "name": "Prussian Blue",
+            "rgb": {
+                "red": 33,
+                "green": 109,
+                "blue": 166
+            }
+        },
+        {
+            "number": 247,
+            "name": "Indanthrene Blue",
+            "rgb": {
+                "red": 53,
+                "green": 68,
+                "blue": 145
+            }
+        },
+        {
+            "number": 249,
+            "name": "Mauve",
+            "rgb": {
+                "red": 111,
+                "green": 73,
+                "blue": 194
+            }
+        },
+        {
+            "number": 264,
+            "name": "Dark Phthalo Green",
+            "rgb": {
+                "red": 6,
+                "green": 164,
+                "blue": 116
+            }
+        },
+        {
+            "number": 267,
+            "name": "Pine Green",
+            "rgb": {
+                "red": 40,
+                "green": 109,
+                "blue": 64
+            }
+        },
+        {
+            "number": 271,
+            "name": "Warm Grey II",
+            "rgb": {
+                "red": 199,
+                "green": 199,
+                "blue": 199
+            }
+        },
+        {
+            "number": 274,
+            "name": "Warm Grey V",
+            "rgb": {
+                "red": 92,
+                "green": 90,
+                "blue": 93
+            }
+        },
+        {
+            "number": 283,
+            "name": "Burnt Sienna",
+            "rgb": {
+                "red": 141,
+                "green": 99,
+                "blue": 86
+            }
+        }
+    ]
+}

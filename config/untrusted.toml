@@ -1,0 +1,96 @@
+# Limit profile for untrusted operation, per ADR-0016.
+#
+# Derived from config/example.toml. It differs in the values of the
+# controls, never in which controls apply, which is what ADR-0016
+# requires of a second profile.
+#
+# This project enforces no time or memory limit on itself. ADR-0016
+# places those limits at the integration boundary. A caller that runs
+# generation on untrusted input has to bound the process by its own
+# means, with ulimit, a job object or a container, and the figures to
+# size that bound with are:
+#
+#     wall clock    200 s      worst measured 100.0 s, doubled for
+#                              slower hardware
+#     address space 2048 MB    worst measured 1437 MB, plus headroom
+#                              and the 38.5 MB an interpreter with this
+#                              project imported occupies
+#
+# Both are for the processing resolution below and for that resolution
+# only. Memory scales linearly in the pixel count and carries over;
+# runtime scales with an exponent up to 1.27 and does not. See
+# docs/adversarial-input-measurements.md.
+
+[input]
+
+palette = "reference8"
+palette_version = 1
+input_image = "examples/input/example.png"
+
+
+[generation]
+
+region_complexity_reduction_enabled = true
+max_regions = 350
+maximum_merge_cost = 0.300
+merge_cost_color_weight = 0.40
+merge_cost_affected_area_weight = 0.25
+merge_cost_border_weight = 0.15
+merge_cost_geometry_weight = 0.20
+merge_cost_enclosure_strength = 0.50
+merge_cost_compactness_strength = 0.15
+minimum_region_size_mm = 2.0
+color_distance = "delta_e_2000"
+
+parallel_quantization_enabled = true
+parallel_quantization_break_even_workload = 557056
+parallel_quantization_max_workers = 8
+outline_simplification_enabled = false
+outline_simplification_tolerance_px = 1.0
+
+
+[input_limits]
+
+# Untrusted profile. Accepts less than the trusted one on all three
+# acceptance bounds. processing_pixel_count is deliberately the same:
+# it sizes the work an accepted image causes, not what is accepted.
+maximum_pixel_count = 40000000
+maximum_width = 10000
+maximum_height = 10000
+processing_pixel_count = 1600000
+
+
+[output]
+
+page = "A4"
+orientation = "landscape"
+placement = "fit"
+margin_mm = 5.0
+output_pdf = "examples/output/example.pdf"
+font_size_pt = 3
+line_width_pt = 0.1
+line_color = "#000000"
+number_color = "#000000"
+
+
+[pdf_legend]
+
+page = "A4"
+orientation = "portrait"
+margin_mm = 5.0
+pixels_per_inch = 96.0
+points_per_inch = 72.0
+color_field_px = 30.0
+column_count = 4
+rows_per_page = 17
+start_x_mm = 20.0
+header_y_mm = 284.0
+version_y_mm = 284.0
+table_y_mm = 265.0
+column_width_pt = 118.0
+name_offset_pt = 30.0
+row_height_pt = 42.5
+entry_font_name = "Helvetica"
+entry_number_font_name = "Helvetica-Bold"
+entry_font_size_pt = 9
+entry_line_height_pt = 9.0

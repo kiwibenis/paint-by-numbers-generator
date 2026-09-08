@@ -1,0 +1,279 @@
+# patches
+*.patch
+*.bundle
+
+# Exampe configs
+config/*
+!config/example.toml
+# The untrusted limit profile is a reference profile required by
+# ADR-0016, not local state, and a test loads it.
+!config/untrusted.toml
+
+# Example output
+examples/output/*
+!examples/output/.gitkeep
+!examples/output/complex_smaller-polychromos60.pdf
+!examples/output/complex-polychromos60.pdf
+!examples/output/example-reference8.pdf
+!examples/output/example-smaller-reference8.pdf
+!examples/output/medium_smaller-polychromos60.pdf
+!examples/output/medium-polychromos60.pdf
+!examples/output/simple_smaller-polychromos60.pdf
+!examples/output/simple-polychromos60.pdf
+
+# Example input (optional)
+# Remove this section if example images should become part of the repository.
+examples/input/*
+!examples/input/.gitkeep
+# The origin of the example images is documented next to them, because a
+# reader of the repository cannot tell from the files alone.
+!examples/input/README.md
+!examples/input/complex.png
+!examples/input/complex_smaller.png
+!examples/input/example.png
+!examples/input/example_smaller.png
+!examples/input/medium.png
+!examples/input/medium_smaller.png
+!examples/input/simple.png
+!examples/input/simple_smaller.png
+!examples/input/animal.png
+!examples/input/architecture.png
+!examples/input/geometric-object.png
+!examples/input/illustration.png
+!examples/input/landscape.png
+!examples/input/plants.png
+!examples/input/portrait.png
+!examples/input/texture.png
+
+# Benchmark output
+tools/output/
+
+# macOS
+.DS_Store
+
+#Windows Explorer
+Thumbs.db
+Desktop.ini
+
+#VSCode counter
+.VSCodeCounter
+
+#Performancecounting
+*.prof
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[codz]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#   Usually these files are written by a python script from a template
+#   using the program version to create version information.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py.cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+#   For a library or package, you might want to ignore this file because the project
+#   is intended to run with multiple Python versions.
+# .python-version
+
+# pipenv
+#   Similar to Pipfile.lock, it is generally recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   install all needed dependencies.
+# Pipfile.lock
+
+# UV
+#   Similar to Pipfile.lock, it is generally recommended to include uv.lock in version control.
+#   This is especially recommended for binary packages to ensure reproducibility, and is more
+#   commonly ignored for libraries.
+# uv.lock
+
+# poetry
+#   Similar to Pipfile.lock, it is generally recommended to include poetry.lock in version control.
+#   This is especially recommended for binary packages to ensure reproducibility, and is more
+#   commonly ignored for libraries.
+#   https://python-poetry.org/docs/basic-usage/#commit-project-dependencies-and-the-lock-file
+# poetry.lock
+# poetry.toml
+
+# pdm
+#   Similar to Pipfile.lock, it is generally recommended to include pdm.lock in version control.
+#   pdm recommends including project-wide configuration in pdm.toml, but excluding .pdm-python.
+#   https://pdm-project.org/latest/usage/project/
+# pdm.lock
+# pdm.toml
+.pdm-python
+.pdm-build/
+
+# pixi
+#   Similar to Pipfile.lock, it is generally recommended to include pixi.lock in version control.
+# pixi.lock
+#   Pixi creates a virtual environment in the .pixi directory, just like venv module creates one.
+#   It is recommended not to include this directory in version control.
+.pixi
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# Redis
+*.rdb
+*.aof
+*.pid
+
+# RabbitMQ
+mnesia/
+rabbitmq/
+rabbitmq-data/
+
+# ActiveMQ
+activemq-data/
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.envrc
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# PyCharm
+#   JetBrains specific template is maintained in a separate JetBrains.gitignore that can
+#   be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore.
+# .idea/
+
+# Abstra
+#   Abstra is an AI-powered framework.
+#   Ignore directories containing user credentials, local state, and settings.
+.abstra/
+
+# Visual Studio Code
+#   Visual Studio Code specific template is maintained in a separate VisualStudioCode.gitignore.
+#   The settings that were tracked here pinned a Windows interpreter path and
+#   turned off a type checker, which is local state rather than a project
+#   convention. The project's own tool configuration is in pyproject.toml.
+.vscode/
+
+# Temporary file for partial code execution
+tempCodeRunnerFile.py
+
+# Ruff stuff:
+.ruff_cache/
+
+# PyPI configuration file
+.pypirc
+
+# Marimo
+marimo/_static/
+marimo/_lsp/
+__marimo__/
+
+# Streamlit
+.streamlit/secrets.toml

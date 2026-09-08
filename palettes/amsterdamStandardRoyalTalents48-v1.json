@@ -1,0 +1,442 @@
+{
+    "metadata": {
+        "id": "amsterdamStandardRoyalTalents48",
+        "manufacturer": "Royal Talens",
+        "display_name": "Amsterdam Standard Series 48",
+        "version": 1
+    },
+    "colors": [
+        {
+            "number": 104,
+            "name": "Zinc White",
+            "rgb": {
+                "red": 251,
+                "green": 250,
+                "blue": 250
+            }
+        },
+        {
+            "number": 105,
+            "name": "Titanium White",
+            "rgb": {
+                "red": 255,
+                "green": 255,
+                "blue": 255
+            }
+        },
+        {
+            "number": 290,
+            "name": "Titanium Buff Deep",
+            "rgb": {
+                "red": 199,
+                "green": 196,
+                "blue": 189
+            }
+        },
+        {
+            "number": 223,
+            "name": "Naples Yellow Deep",
+            "rgb": {
+                "red": 245,
+                "green": 215,
+                "blue": 105
+            }
+        },
+        {
+            "number": 292,
+            "name": "Naples Yellow Red Light",
+            "rgb": {
+                "red": 245,
+                "green": 225,
+                "blue": 206
+            }
+        },
+        {
+            "number": 224,
+            "name": "Naples Yellow Red",
+            "rgb": {
+                "red": 251,
+                "green": 175,
+                "blue": 133
+            }
+        },
+        {
+            "number": 274,
+            "name": "Nickel Titanium Yellow",
+            "rgb": {
+                "red": 247,
+                "green": 237,
+                "blue": 111
+            }
+        },
+        {
+            "number": 243,
+            "name": "Greenish Yellow",
+            "rgb": {
+                "red": 171,
+                "green": 196,
+                "blue": 50
+            }
+        },
+        {
+            "number": 267,
+            "name": "Azo Yellow",
+            "rgb": {
+                "red": 247,
+                "green": 235,
+                "blue": 84
+            }
+        },
+        {
+            "number": 275,
+            "name": "Primary Yellow",
+            "rgb": {
+                "red": 255,
+                "green": 237,
+                "blue": 0
+            }
+        },
+        {
+            "number": 269,
+            "name": "Azo Yellow Medium",
+            "rgb": {
+                "red": 238,
+                "green": 193,
+                "blue": 9
+            }
+        },
+        {
+            "number": 276,
+            "name": "Azo Orange",
+            "rgb": {
+                "red": 255,
+                "green": 102,
+                "blue": 0
+            }
+        },
+        {
+            "number": 311,
+            "name": "Vermilion",
+            "rgb": {
+                "red": 198,
+                "green": 51,
+                "blue": 20
+            }
+        },
+        {
+            "number": 396,
+            "name": "Naphthol Red Medium",
+            "rgb": {
+                "red": 181,
+                "green": 18,
+                "blue": 23
+            }
+        },
+        {
+            "number": 315,
+            "name": "Pyrrole Red",
+            "rgb": {
+                "red": 188,
+                "green": 6,
+                "blue": 21
+            }
+        },
+        {
+            "number": 318,
+            "name": "Carmine",
+            "rgb": {
+                "red": 156,
+                "green": 30,
+                "blue": 50
+            }
+        },
+        {
+            "number": 369,
+            "name": "Primary Magenta",
+            "rgb": {
+                "red": 183,
+                "green": 2,
+                "blue": 79
+            }
+        },
+        {
+            "number": 366,
+            "name": "Quinacridone Rose",
+            "rgb": {
+                "red": 163,
+                "green": 26,
+                "blue": 76
+            }
+        },
+        {
+            "number": 330,
+            "name": "Persian Rose",
+            "rgb": {
+                "red": 217,
+                "green": 173,
+                "blue": 193
+            }
+        },
+        {
+            "number": 361,
+            "name": "Light Rose",
+            "rgb": {
+                "red": 227,
+                "green": 196,
+                "blue": 221
+            }
+        },
+        {
+            "number": 385,
+            "name": "Quinacridone Rose Light",
+            "rgb": {
+                "red": 215,
+                "green": 133,
+                "blue": 178
+            }
+        },
+        {
+            "number": 577,
+            "name": "Permanent Red Violet Light",
+            "rgb": {
+                "red": 165,
+                "green": 38,
+                "blue": 121
+            }
+        },
+        {
+            "number": 567,
+            "name": "Permanent Red Violet",
+            "rgb": {
+                "red": 119,
+                "green": 38,
+                "blue": 93
+            }
+        },
+        {
+            "number": 568,
+            "name": "Permanent Blue Violet",
+            "rgb": {
+                "red": 80,
+                "green": 38,
+                "blue": 127
+            }
+        },
+        {
+            "number": 507,
+            "name": "Ultramarine Violet",
+            "rgb": {
+                "red": 33,
+                "green": 0,
+                "blue": 33
+            }
+        },
+        {
+            "number": 562,
+            "name": "Greyish Blue",
+            "rgb": {
+                "red": 123,
+                "green": 140,
+                "blue": 184
+            }
+        },
+        {
+            "number": 504,
+            "name": "Ultramarine",
+            "rgb": {
+                "red": 52,
+                "green": 66,
+                "blue": 144
+            }
+        },
+        {
+            "number": 572,
+            "name": "Primary Cyan",
+            "rgb": {
+                "red": 0,
+                "green": 119,
+                "blue": 192
+            }
+        },
+        {
+            "number": 570,
+            "name": "Phthalo Blue",
+            "rgb": {
+                "red": 19,
+                "green": 98,
+                "blue": 170
+            }
+        },
+        {
+            "number": 517,
+            "name": "King's Blue",
+            "rgb": {
+                "red": 78,
+                "green": 136,
+                "blue": 166
+            }
+        },
+        {
+            "number": 564,
+            "name": "Brilliant Blue",
+            "rgb": {
+                "red": 0,
+                "green": 131,
+                "blue": 175
+            }
+        },
+        {
+            "number": 551,
+            "name": "Sky Blue Light",
+            "rgb": {
+                "red": 189,
+                "green": 221,
+                "blue": 239
+            }
+        },
+        {
+            "number": 566,
+            "name": "Prussian Blue (Phthalo)",
+            "rgb": {
+                "red": 28,
+                "green": 57,
+                "blue": 82
+            }
+        },
+        {
+            "number": 522,
+            "name": "Turquoise Blue",
+            "rgb": {
+                "red": 0,
+                "green": 174,
+                "blue": 219
+            }
+        },
+        {
+            "number": 661,
+            "name": "Turquoise Green",
+            "rgb": {
+                "red": 68,
+                "green": 166,
+                "blue": 165
+            }
+        },
+        {
+            "number": 617,
+            "name": "Yellowish Green",
+            "rgb": {
+                "red": 157,
+                "green": 179,
+                "blue": 52
+            }
+        },
+        {
+            "number": 618,
+            "name": "Permanent Green Light",
+            "rgb": {
+                "red": 68,
+                "green": 142,
+                "blue": 66
+            }
+        },
+        {
+            "number": 615,
+            "name": "Emerald Green",
+            "rgb": {
+                "red": 25,
+                "green": 149,
+                "blue": 97
+            }
+        },
+        {
+            "number": 619,
+            "name": "Permanent Green Deep",
+            "rgb": {
+                "red": 45,
+                "green": 106,
+                "blue": 67
+            }
+        },
+        {
+            "number": 622,
+            "name": "Olive Green Deep",
+            "rgb": {
+                "red": 69,
+                "green": 86,
+                "blue": 45
+            }
+        },
+        {
+            "number": 623,
+            "name": "Sap Green",
+            "rgb": {
+                "red": 57,
+                "green": 85,
+                "blue": 38
+            }
+        },
+        {
+            "number": 227,
+            "name": "Yellow Ochre",
+            "rgb": {
+                "red": 196,
+                "green": 151,
+                "blue": 32
+            }
+        },
+        {
+            "number": 234,
+            "name": "Raw Sienna",
+            "rgb": {
+                "red": 142,
+                "green": 92,
+                "blue": 56
+            }
+        },
+        {
+            "number": 411,
+            "name": "Burnt Sienna",
+            "rgb": {
+                "red": 137,
+                "green": 34,
+                "blue": 32
+            }
+        },
+        {
+            "number": 409,
+            "name": "Burnt Umber",
+            "rgb": {
+                "red": 81,
+                "green": 59,
+                "blue": 48
+            }
+        },
+        {
+            "number": 718,
+            "name": "Warm Grey",
+            "rgb": {
+                "red": 178,
+                "green": 171,
+                "blue": 156
+            }
+        },
+        {
+            "number": 710,
+            "name": "Neutral Grey",
+            "rgb": {
+                "red": 127,
+                "green": 131,
+                "blue": 133
+            }
+        },
+        {
+            "number": 735,
+            "name": "Oxide Black",
+            "rgb": {
+                "red": 36,
+                "green": 44,
+                "blue": 33
+            }
+        }
+    ]
+}

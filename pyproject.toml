@@ -1,0 +1,78 @@
+[build-system]
+requires = ["setuptools>=77.0.3", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "paint-by-numbers-generator"
+version = "0.1.0"
+description = "Professional Paint-by-Numbers Generator"
+readme = "README.md"
+requires-python = ">=3.12,<3.14"
+# An SPDX expression per PEP 639, which is why the build requirement above
+# is setuptools 77 rather than an older one: the string form is rejected by
+# earlier versions. The additional term is not expressible in this field, so
+# ADDITIONAL-TERMS.md ships beside the license and every source file points
+# at it.
+license = "AGPL-3.0-only"
+license-files = ["LICENSE", "ADDITIONAL-TERMS.md"]
+
+authors = [
+    { name = "kiwibenis" }
+]
+
+dependencies = [
+    "Pillow>=12.3,<13",
+    "reportlab>=4.4,<5",
+    "shapely>=2.1,<3",
+]
+
+[project.urls]
+source = "https://github.com/kiwibenis/paint-by-numbers-generator"
+
+[project.optional-dependencies]
+
+dev = [
+    "black>=26,<27",
+    "numpy>=2.2,<3",
+    "ruff",
+    "mypy",
+    "pytest",
+    "pytest-cov",
+    "pre-commit",
+    "types-reportlab",
+    "types-shapely",
+]
+
+[project.scripts]
+pbn = "pbn.cli:main"
+
+[tool.black]
+line-length = 88
+target-version = ["py312", "py313"]
+required-version = "26"
+
+[tool.mypy]
+strict = true
+
+# Checked as three trees rather than one. src holds an installed package
+# whose modules are pbn.*, while tests and tools are import roots of the
+# repository itself. Without both bases mypy maps a source file to two
+# module names and refuses to continue.
+mypy_path = ["src", "."]
+explicit_package_bases = true
+
+# Named here rather than on the command line, so that a bare mypy checks
+# what the CI checks. Type-checking only src is what let a tool call a
+# constructor signature that had not existed for weeks.
+files = ["src", "tests", "tools"]
+
+[tool.ruff]
+line-length = 88
+target-version = "py312"
+
+[tool.ruff.lint.per-file-ignores]
+"src/pbn/models/lab.py" = ["E741"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
