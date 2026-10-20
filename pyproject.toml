@@ -21,7 +21,7 @@ authors = [
 ]
 
 dependencies = [
-    "Pillow>=12.3,<13",
+    "Pillow>=12.3,<14",
     "reportlab>=4.4,<5",
     "shapely>=2.1,<3",
 ]
